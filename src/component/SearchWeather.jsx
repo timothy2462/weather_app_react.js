@@ -74,7 +74,7 @@ const SearchWeather = () => {
           <div className="col-md-4">
             <div class="card text-white text-center border-0">
               <img
-                src={`http://source.unsplash.com/600x900/?${data.weather[0].main}`}
+                src={`http://source.unsplash.com/700x1100/?${data.weather[0].main}`}
                 class="card-img"
                 alt="..."
               />
