@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
+import './styles.css';
 
 const SearchWeather = () => {
 
@@ -73,7 +74,7 @@ const SearchWeather = () => {
           <div className="col-md-4">
             <div class="card text-white text-center border-0">
               <img
-                src={`http://source.unsplash.com/700x1300/?${data.weather[0].main}`}
+                src={`http://source.unsplash.com/600x900/?${data.weather[0].main}`}
                 class="card-img"
                 alt="..."
               />
